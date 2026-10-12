@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- ArtStudio v1 Fixture: Clean Vector Contour Line Art (License: CC0-1.0) -->
+  <rect width="1024" height="1024" fill="#FFFFFF"/>
+  <g id="lineart_layer" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Outer silhouette contour -->
+    <path d="M 512 120 C 320 120, 180 260, 180 450 C 180 620, 310 780, 512 900 C 714 780, 844 620, 844 450 C 844 260, 704 120, 512 120 Z"/>
+    <!-- Internal feature contours (closed regions for flood-fill & CV segmentation testing) -->
+    <circle cx="370" cy="400" r="60"/>
+    <circle cx="654" cy="400" r="60"/>
+    <path d="M 512 430 L 512 550 L 470 550"/>
+    <path d="M 360 650 Q 512 750, 664 650"/>
+    <!-- Stylized shading hatch lines for screentone/pencil tests -->
+    <line x1="260" y1="520" x2="300" y2="560"/>
+    <line x1="280" y1="520" x2="320" y2="560"/>
+    <line x1="300" y1="520" x2="340" y2="560"/>
+  </g>
+</svg>

@@ -1,0 +1,249 @@
+{
+  "corpusVersion": "1.0.0",
+  "description": "ArtStudio Photographed and Scanned Sketch Corpus (20 assets)",
+  "totalSketches": 20,
+  "photographedCount": 10,
+  "scannedCount": 10,
+  "sketches": [
+    {
+      "id": "sketch_01_photo_geometric",
+      "path": "sketches/sketch_01_photo_geometric.png",
+      "metadataPath": "sketches/sketch_01_photo_geometric.json",
+      "category": "photo",
+      "dimensions": [
+        512,
+        512
+      ],
+      "referencePaths": 2,
+      "sha256": "c9b90192f947875c724c72c5b5270ec1089876cdfeca136014cf7f88f9cd336f"
+    },
+    {
+      "id": "sketch_02_photo_face_profile",
+      "path": "sketches/sketch_02_photo_face_profile.png",
+      "metadataPath": "sketches/sketch_02_photo_face_profile.json",
+      "category": "photo",
+      "dimensions": [
+        512,
+        512
+      ],
+      "referencePaths": 3,
+      "sha256": "1c2ac3a4adc2d35053079ab3adefe4f7f025c6de60636e2adbeb94cc22d4bbd5"
+    },
+    {
+      "id": "sketch_03_photo_botanical_leaf",
+      "path": "sketches/sketch_03_photo_botanical_leaf.png",
+      "metadataPath": "sketches/sketch_03_photo_botanical_leaf.json",
+      "category": "photo",
+      "dimensions": [
+        512,
+        512
+      ],
+      "referencePaths": 8,
+      "sha256": "f9da93cbe266e88921a86b23795604c6ead3a2db07828d23bb647e099547cc92"
+    },
+    {
+      "id": "sketch_04_photo_architecture",
+      "path": "sketches/sketch_04_photo_architecture.png",
+      "metadataPath": "sketches/sketch_04_photo_architecture.json",
+      "category": "photo",
+      "dimensions": [
+        512,
+        512
+      ],
+      "referencePaths": 4,
+      "sha256": "04bf9ad53ebfbe1ac140e9bf8f6e7057cfa90f98b7d19c6baccf6f3625fb996f"
+    },
+    {
+      "id": "sketch_05_photo_donut_gears",
+      "path": "sketches/sketch_05_photo_donut_gears.png",
+      "metadataPath": "sketches/sketch_05_photo_donut_gears.json",
+      "category": "photo",
+      "dimensions": [
+        512,
+        512
+      ],
+      "referencePaths": 2,
+      "sha256": "a3a75b2ef005b89bbf77ed5c5c3372e5410aab3c64ef91acdcad8397965b0909"
+    },
+    {
+      "id": "sketch_06_photo_figure8_ribbon",
+      "path": "sketches/sketch_06_photo_figure8_ribbon.png",
+      "metadataPath": "sketches/sketch_06_photo_figure8_ribbon.json",
+      "category": "photo",
+      "dimensions": [
+        512,
+        512
+      ],
+      "referencePaths": 1,
+      "sha256": "1c46b16c02463661958363e70d82f251bbac982d36fe23c8c6b06a4f6bd5c79f"
+    },
+    {
+      "id": "sketch_07_photo_coffee_mug",
+      "path": "sketches/sketch_07_photo_coffee_mug.png",
+      "metadataPath": "sketches/sketch_07_photo_coffee_mug.json",
+      "category": "photo",
+      "dimensions": [
+        512,
+        512
+      ],
+      "referencePaths": 5,
+      "sha256": "da61d90af203667562c2040e6543c874ec4b8078d8d1f11b3e6756b37a3ad234"
+    },
+    {
+      "id": "sketch_08_photo_tree_branches",
+      "path": "sketches/sketch_08_photo_tree_branches.png",
+      "metadataPath": "sketches/sketch_08_photo_tree_branches.json",
+      "category": "photo",
+      "dimensions": [
+        512,
+        512
+      ],
+      "referencePaths": 8,
+      "sha256": "8e1d6bc6cff68706547829da7ce40031d72a3a0bb5514b99ed39a6db659b613b"
+    },
+    {
+      "id": "sketch_09_photo_cat_silhouette",
+      "path": "sketches/sketch_09_photo_cat_silhouette.png",
+      "metadataPath": "sketches/sketch_09_photo_cat_silhouette.json",
+      "category": "photo",
+      "dimensions": [
+        512,
+        512
+      ],
+      "referencePaths": 6,
+      "sha256": "d1ebda056f6942aab28f9ecd0f70aee6399eb89df8808722036da0e03a4049ea"
+    },
+    {
+      "id": "sketch_10_photo_flower_blossom",
+      "path": "sketches/sketch_10_photo_flower_blossom.png",
+      "metadataPath": "sketches/sketch_10_photo_flower_blossom.json",
+      "category": "photo",
+      "dimensions": [
+        512,
+        512
+      ],
+      "referencePaths": 8,
+      "sha256": "80adcf8d72302e4ec7923eaf0d2a7ca1e41f4a38b82fc2fdadc72a7ddaa369cb"
+    },
+    {
+      "id": "sketch_11_scan_mechanical_bracket",
+      "path": "sketches/sketch_11_scan_mechanical_bracket.png",
+      "metadataPath": "sketches/sketch_11_scan_mechanical_bracket.json",
+      "category": "scan",
+      "dimensions": [
+        512,
+        512
+      ],
+      "referencePaths": 4,
+      "sha256": "13c9da6eeedc5af52b174315d3962290503e6b08d0dde14fd9f3cbcba67465bc"
+    },
+    {
+      "id": "sketch_12_scan_lettering_script",
+      "path": "sketches/sketch_12_scan_lettering_script.png",
+      "metadataPath": "sketches/sketch_12_scan_lettering_script.json",
+      "category": "scan",
+      "dimensions": [
+        512,
+        512
+      ],
+      "referencePaths": 5,
+      "sha256": "60209b7e59b88c1240e8734e223f002c7fa219bdd3e158aeb2f7ceeb110b39fd"
+    },
+    {
+      "id": "sketch_13_scan_circuit_schematic",
+      "path": "sketches/sketch_13_scan_circuit_schematic.png",
+      "metadataPath": "sketches/sketch_13_scan_circuit_schematic.json",
+      "category": "scan",
+      "dimensions": [
+        512,
+        512
+      ],
+      "referencePaths": 4,
+      "sha256": "7bf6b8e97ece21e0028482ea4a442ff387aad478873204ae2e50d7e75deed998"
+    },
+    {
+      "id": "sketch_14_scan_star_mandala",
+      "path": "sketches/sketch_14_scan_star_mandala.png",
+      "metadataPath": "sketches/sketch_14_scan_star_mandala.json",
+      "category": "scan",
+      "dimensions": [
+        512,
+        512
+      ],
+      "referencePaths": 2,
+      "sha256": "f3d8f2a3ddd61832e084429e006b66ece9a7470b6b3a2abaaf56263eea56c505"
+    },
+    {
+      "id": "sketch_15_scan_optical_spiral",
+      "path": "sketches/sketch_15_scan_optical_spiral.png",
+      "metadataPath": "sketches/sketch_15_scan_optical_spiral.json",
+      "category": "scan",
+      "dimensions": [
+        512,
+        512
+      ],
+      "referencePaths": 1,
+      "sha256": "7a095d6ded67896b09a1c5380b67a252d4ccbe12e5bd5f36ee064f7b565e5353"
+    },
+    {
+      "id": "sketch_16_scan_key_lock",
+      "path": "sketches/sketch_16_scan_key_lock.png",
+      "metadataPath": "sketches/sketch_16_scan_key_lock.json",
+      "category": "scan",
+      "dimensions": [
+        512,
+        512
+      ],
+      "referencePaths": 4,
+      "sha256": "12409391e767a0314ccac42c24827462e07fe3880edd48cc98723eff1fbe4680"
+    },
+    {
+      "id": "sketch_17_scan_bird_in_flight",
+      "path": "sketches/sketch_17_scan_bird_in_flight.png",
+      "metadataPath": "sketches/sketch_17_scan_bird_in_flight.json",
+      "category": "scan",
+      "dimensions": [
+        512,
+        512
+      ],
+      "referencePaths": 2,
+      "sha256": "aa2617cf12f55d98e8e15e090c462961555048cfd548cf15edd6beb57db8d292"
+    },
+    {
+      "id": "sketch_18_scan_crosshatch_cube",
+      "path": "sketches/sketch_18_scan_crosshatch_cube.png",
+      "metadataPath": "sketches/sketch_18_scan_crosshatch_cube.json",
+      "category": "scan",
+      "dimensions": [
+        512,
+        512
+      ],
+      "referencePaths": 12,
+      "sha256": "09fc8c3eaa6522e02d958bea200fba75962a693a02f3894991cf946c5d118c96"
+    },
+    {
+      "id": "sketch_19_scan_butterfly_wings",
+      "path": "sketches/sketch_19_scan_butterfly_wings.png",
+      "metadataPath": "sketches/sketch_19_scan_butterfly_wings.json",
+      "category": "scan",
+      "dimensions": [
+        512,
+        512
+      ],
+      "referencePaths": 7,
+      "sha256": "0fd1d19f140a1d0f2d365feba983f2266be982650e25e2e7a23c0d85bfa30431"
+    },
+    {
+      "id": "sketch_20_scan_city_skyline",
+      "path": "sketches/sketch_20_scan_city_skyline.png",
+      "metadataPath": "sketches/sketch_20_scan_city_skyline.json",
+      "category": "scan",
+      "dimensions": [
+        512,
+        512
+      ],
+      "referencePaths": 2,
+      "sha256": "353362ed96146621ecb56a623ca43eb335264e6a40258134b54580dc29c57e33"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- ArtStudio v1 Fixture: Simple Geometric Vector Shapes (License: CC0-1.0) -->
+  <rect width="512" height="512" fill="#FAFAFA"/>
+  <rect x="64" y="64" width="160" height="160" fill="#E74C3C" stroke="#C0392B" stroke-width="4" rx="16"/>
+  <circle cx="360" cy="144" r="80" fill="#3498DB" stroke="#2980B9" stroke-width="4"/>
+  <polygon points="144,448 64,304 224,304" fill="#2ECC71" stroke="#27AE60" stroke-width="4"/>
+  <ellipse cx="360" cy="376" rx="96" ry="64" fill="#F39C12" stroke="#D35400" stroke-width="4"/>
+</svg>

@@ -1,0 +1,35 @@
+{
+  "manifest_version": "1.0",
+  "system": "Art Studio",
+  "category": "BRUSH",
+  "license_policy": "CC0-1.0 Universal",
+  "brushes": [
+    {
+      "id": "preset_fountain_pen",
+      "name": "Classic Fountain Pen",
+      "file": "fountain_pen.json",
+      "author": "Art Studio Team",
+      "license": "CC0-1.0",
+      "sha256": "2bc054b49a0831e2f20964c919f8719f42f63aaba6c2a2338f0f53be2fdcceff",
+      "file_size": 697
+    },
+    {
+      "id": "preset_bristle_ink",
+      "name": "Coarse Bristle Ink",
+      "file": "bristle_ink.json",
+      "author": "Art Studio Team",
+      "license": "CC0-1.0",
+      "sha256": "ac24e8e09cb9b465988af86c64bcccca28e8c54c224243f30493505c986423cc",
+      "file_size": 719
+    },
+    {
+      "id": "preset_spray_soft",
+      "name": "Soft Airbrush Spray",
+      "file": "spray_soft.json",
+      "author": "Art Studio Team",
+      "license": "CC0-1.0",
+      "sha256": "805bff7d1290b48e35739bbccee1e3c3d50594a53b2a338402eddcaaef585a3b",
+      "file_size": 681
+    }
+  ]
+}

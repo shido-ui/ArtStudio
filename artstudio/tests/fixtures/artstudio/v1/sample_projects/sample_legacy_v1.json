@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0.0",
+  "appVersion": "0.9.0",
+  "id": "doc_legacy_v1_sample",
+  "title": "Legacy v1 Flat Project",
+  "createdAt": 1690000000000,
+  "canvas": {
+    "width": 512,
+    "height": 512,
+    "dpi": 300,
+    "backgroundColor": -1
+  },
+  "layers": [
+    {
+      "id": "legacy_layer_bg",
+      "name": "Background",
+      "type": "raster",
+      "visible": true,
+      "opacity": 100,
+      "blendMode": "normal",
+      "assetPath": "assets/flat_colour_simple_01.png",
+      "width": 512,
+      "height": 512,
+      "offsetX": 0,
+      "offsetY": 0,
+      "isLocked": true
+    },
+    {
+      "id": "legacy_layer_ink",
+      "name": "Ink Strokes",
+      "type": "raster",
+      "visible": true,
+      "opacity": 85,
+      "blendMode": "multiply",
+      "assetPath": "assets/lineart_simple_01.png",
+      "width": 512,
+      "height": 512,
+      "offsetX": 0,
+      "offsetY": 0,
+      "isLocked": false
+    }
+  ],
+  "palettes": [
+    {
+      "id": "pal_v1_default",
+      "name": "Default v1",
+      "swatches": [
+        {
+          "hex": "#000000",
+          "name": "Black"
+        },
+        {
+          "hex": "#FF0000",
+          "name": "Red"
+        }
+      ]
+    }
+  ]
+}

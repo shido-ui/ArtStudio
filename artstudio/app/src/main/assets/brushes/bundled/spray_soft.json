@@ -1,0 +1,32 @@
+{
+  "format": "artstudio-brush-preset",
+  "schemaVersion": 1,
+  "id": "preset_spray_soft",
+  "name": "Soft Airbrush Spray",
+  "category": "Painting",
+  "isFavorite": false,
+  "isBuiltIn": true,
+  "tags": [
+    "airbrush",
+    "spray",
+    "soft",
+    "paint"
+  ],
+  "config": {
+    "type": "AIRBRUSH",
+    "size": 48.0,
+    "opacity": 0.4,
+    "hardness": 0.1,
+    "color": -16777216,
+    "blendMode": "SRC_OVER",
+    "spacing": 0.05,
+    "tipShape": "ROUND",
+    "tipAngleDegrees": 0.0,
+    "tipAspectRatio": 1.0,
+    "patternShape": "SPONGE",
+    "patternScale": 2.0,
+    "pressureResponse": "SOFT"
+  },
+  "createdAtEpochMs": 1700000000000,
+  "modifiedAtEpochMs": 1700000000000
+}

@@ -1,0 +1,32 @@
+{
+  "format": "artstudio-brush-preset",
+  "schemaVersion": 1,
+  "id": "preset_fountain_pen",
+  "name": "Classic Fountain Pen",
+  "category": "Inking",
+  "isFavorite": true,
+  "isBuiltIn": true,
+  "tags": [
+    "ink",
+    "pen",
+    "calligraphy",
+    "fountain"
+  ],
+  "config": {
+    "type": "HARD_PEN",
+    "size": 14.0,
+    "opacity": 1.0,
+    "hardness": 1.0,
+    "color": -16777216,
+    "blendMode": "SRC_OVER",
+    "spacing": 0.05,
+    "tipShape": "OVAL",
+    "tipAngleDegrees": 45.0,
+    "tipAspectRatio": 2.5,
+    "followStrokeAngle": true,
+    "stabilizationWeight": 0.25,
+    "pressureResponse": "STANDARD"
+  },
+  "createdAtEpochMs": 1700000000000,
+  "modifiedAtEpochMs": 1700000000000
+}

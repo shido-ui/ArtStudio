@@ -1,0 +1,104 @@
+{
+  "id": "sketch_02_photo_face_profile",
+  "category": "photo",
+  "dimensions": [
+    512,
+    512
+  ],
+  "description": "Portrait face profile with sharp nose spur, eye contour, and diagonal cast shadow.",
+  "sha256": "1c2ac3a4adc2d35053079ab3adefe4f7f025c6de60636e2adbeb94cc22d4bbd5",
+  "referencePathCount": 3,
+  "referencePaths": [
+    [
+      {
+        "x": 180.0,
+        "y": 80.0
+      },
+      {
+        "x": 200.0,
+        "y": 140.0
+      },
+      {
+        "x": 210.0,
+        "y": 190.0
+      },
+      {
+        "x": 275.0,
+        "y": 230.0
+      },
+      {
+        "x": 250.0,
+        "y": 245.0
+      },
+      {
+        "x": 255.0,
+        "y": 270.0
+      },
+      {
+        "x": 240.0,
+        "y": 285.0
+      },
+      {
+        "x": 258.0,
+        "y": 305.0
+      },
+      {
+        "x": 248.0,
+        "y": 335.0
+      },
+      {
+        "x": 200.0,
+        "y": 370.0
+      },
+      {
+        "x": 170.0,
+        "y": 410.0
+      },
+      {
+        "x": 160.0,
+        "y": 450.0
+      }
+    ],
+    [
+      {
+        "x": 200.0,
+        "y": 190.0
+      },
+      {
+        "x": 225.0,
+        "y": 185.0
+      },
+      {
+        "x": 240.0,
+        "y": 195.0
+      },
+      {
+        "x": 220.0,
+        "y": 202.0
+      },
+      {
+        "x": 200.0,
+        "y": 190.0
+      }
+    ],
+    [
+      {
+        "x": 190.0,
+        "y": 175.0
+      },
+      {
+        "x": 220.0,
+        "y": 168.0
+      },
+      {
+        "x": 245.0,
+        "y": 172.0
+      }
+    ]
+  ],
+  "qualityTargets": {
+    "maxGapRate": 0.05,
+    "maxErrorPx": 1.5,
+    "maxExecutionTimeMs": 3000
+  }
+}

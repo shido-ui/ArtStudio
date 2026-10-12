@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "2.0.0",
+  "appVersion": "1.0.0",
+  "id": "fixture_3frame_bounce",
+  "title": "3-Frame Bouncing Ball",
+  "canvas": {
+    "width": 64,
+    "height": 64,
+    "dpi": 72,
+    "backgroundColor": -1,
+    "colorSpace": "sRGB"
+  },
+  "rootGroup": {
+    "id": "root_group",
+    "name": "Root",
+    "type": "group",
+    "isVisible": true,
+    "opacity": 1.0,
+    "children": [
+      {
+        "id": "layer_bg",
+        "name": "Ground & Sky",
+        "type": "raster",
+        "width": 64,
+        "height": 64,
+        "isVisible": true,
+        "opacity": 1.0
+      },
+      {
+        "id": "cel_ball_01",
+        "name": "Ball Low",
+        "type": "raster",
+        "width": 64,
+        "height": 64,
+        "isVisible": true,
+        "opacity": 1.0
+      },
+      {
+        "id": "cel_ball_02",
+        "name": "Ball Peak",
+        "type": "raster",
+        "width": 64,
+        "height": 64,
+        "isVisible": true,
+        "opacity": 1.0
+      },
+      {
+        "id": "cel_ball_03",
+        "name": "Ball Landing",
+        "type": "raster",
+        "width": 64,
+        "height": 64,
+        "isVisible": true,
+        "opacity": 1.0
+      }
+    ]
+  },
+  "animation": {
+    "fps": 12,
+    "totalFrames": 3,
+    "currentFrameIndex": 0,
+    "staticLayerIds": [
+      "layer_bg"
+    ],
+    "loopMode": "loop",
+    "onionSkinEnabled": true,
+    "onionSkinFramesBefore": 1,
+    "onionSkinFramesAfter": 1,
+    "frames": [
+      {
+        "id": "frame_01",
+        "name": "Frame 1 (Low)",
+        "durationTicks": 1,
+        "celLayerIds": [
+          "cel_ball_01"
+        ]
+      },
+      {
+        "id": "frame_02",
+        "name": "Frame 2 (Peak)",
+        "durationTicks": 2,
+        "celLayerIds": [
+          "cel_ball_02"
+        ]
+      },
+      {
+        "id": "frame_03",
+        "name": "Frame 3 (Landing)",
+        "durationTicks": 1,
+        "celLayerIds": [
+          "cel_ball_03"
+        ]
+      }
+    ],
+    "frameTracks": [
+      {
+        "layerId": "cel_ball_01",
+        "activeFrames": [
+          0
+        ]
+      },
+      {
+        "layerId": "cel_ball_02",
+        "activeFrames": [
+          1
+        ]
+      },
+      {
+        "layerId": "cel_ball_03",
+        "activeFrames": [
+          2
+        ]
+      }
+    ]
+  }
+}

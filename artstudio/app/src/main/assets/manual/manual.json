@@ -1,0 +1,263 @@
+{
+  "manual_version": "1.0",
+  "app_name": "Art Studio",
+  "chapters": [
+    {
+      "id": "getting_started",
+      "title": "Getting Started",
+      "intro": "Welcome to Art Studio. Discover essential workflows for setting up your canvas, picking brushes, selecting vibrant colors, and saving your work.",
+      "sections": [
+        {
+          "id": "canvas_setup",
+          "title": "Canvas & Projects",
+          "body": "Create projects from preset aspect ratios or custom dimensions up to 16,384 pixels. Navigate with fluid two-finger pan, pinch zoom, and rotation snapping."
+        },
+        {
+          "id": "brush_basics",
+          "title": "Brushes & Tools",
+          "body": "Select the Brush tool from the tool rail to sketch or paint. Adjust size and opacity sliders dynamically with hardware pressure sensitivity or velocity fallback."
+        },
+        {
+          "id": "color_selection",
+          "title": "Colors & Palettes",
+          "body": "Tap the active color chip to open the Color Wheel and Palettes panel. Switch between RGB, HSV, and HSL spaces, and save custom swatches."
+        },
+        {
+          "id": "save_and_export",
+          "title": "Saving & Exporting",
+          "body": "Projects save atomically in the background with zero lag. Export finished artwork to PNG, JPEG, or WebP using Android's media gallery integration."
+        }
+      ]
+    },
+    {
+      "id": "manual_studio",
+      "title": "Manual Studio",
+      "intro": "Harness pro-grade digital studio features including non-destructive layers, masking, blend modes, freehand selections, transforms, and interactive mesh deformation.",
+      "sections": [
+        {
+          "id": "layer_management",
+          "title": "Layers & Groups",
+          "body": "Organize art into hierarchical layer groups up to five levels deep. Reorder, duplicate, merge, or toggle layer visibility non-destructively at any time."
+        },
+        {
+          "id": "masks_and_clipping",
+          "title": "Masks & Clipping",
+          "body": "Attach grayscale raster masks to reveal or conceal strokes without deleting pixels. Enable clipping masks to restrict content to the underlying layer silhouette."
+        },
+        {
+          "id": "blend_modes",
+          "title": "Blend Modes",
+          "body": "Select from 9 industry-standard Porter-Duff blend modes, including Multiply, Screen, Overlay, and Color Dodge, for photorealistic lighting and shading."
+        },
+        {
+          "id": "selections_transforms",
+          "title": "Selections & Transforms",
+          "body": "Isolate regions with Rectangle, Ellipse, or Lasso selection tools. Scale, rotate, skew, and flip content with bilinear or bicubic interpolation."
+        },
+        {
+          "id": "deformation_warp",
+          "title": "Deformation & Liquify",
+          "body": "Open the Deformation panel to warp layers with flexible grid control points or sculpt pixels smoothly using Push, Expand, and Pinch liquify brushes."
+        }
+      ]
+    },
+    {
+      "id": "brush_engine",
+      "title": "Brush Engine",
+      "intro": "Explore realistic digital media dynamics spanning pencils, inking pens, watercolours, oil impasto, dry brushes, and customizable stamp textures.",
+      "sections": [
+        {
+          "id": "media_families",
+          "title": "Paint Media Families",
+          "body": "Experience authentic physical media simulation. Markers feature chisel angle bleeding, watercolours diffuse into wet edge puddles, and oil brushes layer impasto ridges."
+        },
+        {
+          "id": "dynamics_and_curves",
+          "title": "Pressure Curves & Stabilization",
+          "body": "Tailor stylus feel using Linear, Soft, Firm, or S-Curve dynamics. Enable stroke stabilization to draw clean, vibration-free line art effortlessly."
+        },
+        {
+          "id": "importing_brushes",
+          "title": "Importing Presets",
+          "body": "Import Krita (.kpp), MyPaint (.myb), or zip brush packs directly from the Pro Library or local storage via the Storage Access Framework."
+        }
+      ]
+    },
+    {
+      "id": "vector_tools",
+      "title": "Vector Tools",
+      "intro": "Create scalable vector paths, geometric polygons, and editable typography objects directly alongside raster painting layers without loss of quality.",
+      "sections": [
+        {
+          "id": "vector_paths",
+          "title": "Vector Paths & Anchors",
+          "body": "Draw smooth cubic Bezier paths with interactive anchor handles. Add, delete, and convert smooth or corner nodes with sub-pixel precision."
+        },
+        {
+          "id": "geometric_shapes",
+          "title": "Geometric Shapes",
+          "body": "Generate rectangles, circles, stars, polygons, and arrows with customizable stroke widths, miter limits, and fill colors."
+        },
+        {
+          "id": "text_objects",
+          "title": "Text & Typography",
+          "body": "Place editable text objects using bundled open-licensed typefaces like Bubble Sans and Tomson Talks. Rasterize to standard pixel layers whenever desired."
+        }
+      ]
+    },
+    {
+      "id": "comic_tools",
+      "title": "Comic Tools",
+      "intro": "Produce comics and manga efficiently with dedicated panel layout grids, custom gutter slicing, scalable halftone screentones, and speech balloons.",
+      "sections": [
+        {
+          "id": "panel_layouts",
+          "title": "Panel Grids & Gutters",
+          "body": "Generate classic 4-koma strips or action manga panels. Slice panels with angled gutters while maintaining automatic border containment masks."
+        },
+        {
+          "id": "speech_bubbles",
+          "title": "Speech & Thought Balloons",
+          "body": "Insert dialogue ovals, shout bursts, thought clouds, and whisper boxes. Drag curved pointer tails anywhere on the canvas."
+        },
+        {
+          "id": "screentone_patterns",
+          "title": "Screentones & Halftones",
+          "body": "Apply procedural dot, line, cross-hatch, and diamond halftones with controllable frequency (LPI) and angle for authentic print aesthetics."
+        }
+      ]
+    },
+    {
+      "id": "animation",
+      "title": "Animation",
+      "intro": "Bring drawings to life with frame-by-frame animation, multi-frame onion skinning, variable playback controls, and animated video export.",
+      "sections": [
+        {
+          "id": "frame_timeline",
+          "title": "Timeline & Frames",
+          "body": "Add, duplicate, and reorder animation frames along the timeline. Configure frame rates from 1 to 60 fps for smooth previews."
+        },
+        {
+          "id": "onion_skinning",
+          "title": "Onion Skinning",
+          "body": "Preview past and upcoming frames with semi-transparent tinted overlays (red for backward, green for forward) to gauge motion timing accurately."
+        },
+        {
+          "id": "animated_export",
+          "title": "Exporting Animations",
+          "body": "Render your completed sequence as an animated GIF or MP4 video through hardware-accelerated MediaCodec encoding."
+        }
+      ]
+    },
+    {
+      "id": "autodraw",
+      "title": "AutoDraw Pipeline",
+      "intro": "Analyze photographed and scanned sketches using classical computer vision to extract clean linework, segmented regions, and stroke schedules.",
+      "sections": [
+        {
+          "id": "sketch_import",
+          "title": "Sketch Ingestion",
+          "body": "Import pencil sketches or inked line art. The pipeline automatically normalizes shadows, enhances contrast, and removes scanning speckles."
+        },
+        {
+          "id": "contour_tracing",
+          "title": "Contour Tracing",
+          "body": "Traces crisp vector boundaries using proven border-following algorithms, iterative Douglas-Peucker simplification, and cooperative background execution."
+        },
+        {
+          "id": "stroke_playback",
+          "title": "Playback Schedule",
+          "body": "Synthesizes an intelligent stroke playback timeline, reproducing your sketch stroke-by-stroke with authentic brush dabs on canvas."
+        }
+      ]
+    },
+    {
+      "id": "colour_lab",
+      "title": "Colour Lab",
+      "intro": "Transform linework into rich, fully rendered illustrations across 16 distinct art styles using intelligent region segmentation and color palette extraction.",
+      "sections": [
+        {
+          "id": "style_strategies",
+          "title": "16 Distinct Art Styles",
+          "body": "Choose from Classic Cel, Soft Gradient, Watercolour, Comic Book, Neon Cyberpunk, Painterly, and 10 other procedural coloring recipes."
+        },
+        {
+          "id": "palette_mapping",
+          "title": "Palette Extraction",
+          "body": "Extracts harmonious color swatches directly from reference photos or uses predefined mood palettes mapped to segmented subject regions."
+        },
+        {
+          "id": "baking_layers",
+          "title": "Bake to Editable Layers",
+          "body": "Bakes coloring output into 3 to 5 organized editable layers (Base Colour, Shadows, Highlights, Textures, Linework) for manual refinement."
+        }
+      ]
+    },
+    {
+      "id": "file_interchange",
+      "title": "File Interchange",
+      "intro": "Seamlessly exchange artwork with desktop graphics software through robust support for industry-standard open formats and native project packaging.",
+      "sections": [
+        {
+          "id": "native_ffart",
+          "title": "Native .ffart Format",
+          "body": "Stores complete layer trees, vector objects, blend modes, and history checkpoints inside an atomic, fault-resilient ZIP archive."
+        },
+        {
+          "id": "openraster_ora",
+          "title": "OpenRaster (.ora)",
+          "body": "Export and import multi-layer artwork fully compatible with Krita, GIMP, and MyPaint with preserved layer hierarchy and blend modes."
+        },
+        {
+          "id": "psd_and_svg",
+          "title": "PSD & SVG Compatibility",
+          "body": "Import layered Photoshop (.psd) files safely and export vector paths as clean, scalable SVG documents adhering to web standards."
+        }
+      ]
+    },
+    {
+      "id": "pro_library",
+      "title": "Pro Library",
+      "intro": "Access an expanding universe of free, auditable Pro Assets with serverless public mirrors or import your own files without an internet connection.",
+      "sections": [
+        {
+          "id": "serverless_downloads",
+          "title": "Serverless Downloads",
+          "body": "Download curated CC0 brush packs, paper textures, fonts, and comic screentones directly from GitHub, HuggingFace, and ambientCG public mirrors."
+        },
+        {
+          "id": "saf_local_import",
+          "title": "Zero-Network Local Import",
+          "body": "Use the Android Storage Access Framework to import brushes, textures, and fonts stored on device storage, SD cards, or USB drives."
+        },
+        {
+          "id": "licensing_provenance",
+          "title": "Auditable Provenance",
+          "body": "Every bundled and downloadable pack is verified under permissive open licenses (CC0-1.0, SIL-OFL-1.1, Apache-2.0) with zero telemetry."
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Troubleshooting",
+      "intro": "Quick diagnostic solutions and recovery procedures for common storage, memory, permission, and hardware input issues.",
+      "sections": [
+        {
+          "id": "storage_limits",
+          "title": "Low Storage & Memory",
+          "body": "Art Studio requires at least 1 GB free storage. Under high memory pressure, inactive tiles and undo buffers automatically flush to disk cache."
+        },
+        {
+          "id": "crash_recovery",
+          "title": "Auto-Recovery Journal",
+          "body": "In the rare event of an unexpected shutdown, the recovery journal prompts to restore unsaved strokes seamlessly upon next project open."
+        },
+        {
+          "id": "stylus_issues",
+          "title": "Stylus & Touch Diagnostics",
+          "body": "Open Input Diagnostics in Settings to test stylus pressure, tilt, coordinate latency, and palm rejection accuracy in real-time."
+        }
+      ]
+    }
+  ]
+}

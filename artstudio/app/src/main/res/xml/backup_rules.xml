@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Retain user preferences and saved projects metadata/files -->
+    <include domain="sharedpref" path="." />
+    <include domain="database" path="." />
+    <include domain="file" path="projects" />
+
+    <!-- Exclude temporary caches, exports, and scratch files -->
+    <exclude domain="file" path="exports" />
+    <exclude domain="file" path="temp" />
+    <exclude domain="file" path="cache" />
+</full-backup-content>

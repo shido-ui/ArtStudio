@@ -1,0 +1,80 @@
+{
+  "manifest_version": "1.0",
+  "system": "Art Studio",
+  "category": "TEXTURE",
+  "license_policy": "CC0-1.0 Universal",
+  "textures": [
+    {
+      "id": "tex_fine_linen_64",
+      "name": "Fine Linen Canvas",
+      "category": "CANVAS",
+      "file": "fine_linen_64.png",
+      "author": "Art Studio Team",
+      "license": "CC0-1.0",
+      "sha256": "449760752f8024210ace7d0bc3e90299bb1fb4b636f0257aa6e4944ea8bf4f99",
+      "file_size": 3433,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "tex_medium_linen_64",
+      "name": "Medium Linen Canvas",
+      "category": "CANVAS",
+      "file": "medium_linen_64.png",
+      "author": "Art Studio Team",
+      "license": "CC0-1.0",
+      "sha256": "3ff525ecdf3acd647353c7171d025197586994cb1292e35ed5e348255ec404d5",
+      "file_size": 3900,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "tex_coarse_burlap_64",
+      "name": "Coarse Burlap",
+      "category": "CANVAS",
+      "file": "coarse_burlap_64.png",
+      "author": "Art Studio Team",
+      "license": "CC0-1.0",
+      "sha256": "bd0772f03e69162b5306ee8df1c70b0c139826319e3c638c5e475e55f8f529e1",
+      "file_size": 3991,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "tex_cold_press_watercolour_64",
+      "name": "Cold-Press Watercolour Paper",
+      "category": "PAPER",
+      "file": "cold_press_watercolour_64.png",
+      "author": "Art Studio Team",
+      "license": "CC0-1.0",
+      "sha256": "cfebf5c3118112a19e4595dd4f7e1d9c00db5ba232ab55f3aefaa895e9ea5d4d",
+      "file_size": 4054,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "tex_rough_charcoal_64",
+      "name": "Rough Charcoal Paper",
+      "category": "PAPER",
+      "file": "rough_charcoal_64.png",
+      "author": "Art Studio Team",
+      "license": "CC0-1.0",
+      "sha256": "06c570f797762eb8deb12c73c815db2c9ea06176cc2c87dc49a250d28f4f19cb",
+      "file_size": 4120,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "tex_smooth_bristol_64",
+      "name": "Smooth Bristol Board",
+      "category": "PAPER",
+      "file": "smooth_bristol_64.png",
+      "author": "Art Studio Team",
+      "license": "CC0-1.0",
+      "sha256": "6d88ad9ef6281efaa2df513109f9c90907eab69d42d56e5ac4ff6f2d25edfc25",
+      "file_size": 2936,
+      "width": 64,
+      "height": 64
+    }
+  ]
+}

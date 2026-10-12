@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect x="50" y="50" width="120" height="80" rx="10" ry="10" fill="#3B82F6" stroke="#1D4ED8" stroke-width="3"/>
+  <circle cx="256" cy="100" r="50" fill="#EF4444" stroke="#B91C1C" stroke-width="2"/>
+  <ellipse cx="420" cy="100" rx="60" ry="35" fill="#10B981" stroke="#047857" stroke-width="2"/>
+  <line x1="50" y1="200" x2="462" y2="200" stroke="#6B7280" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="120.0,260.0 134.6946,299.7746 177.0634,301.459 143.7764,327.7254 155.2671,368.541 120.0,345.0 84.7329,368.541 96.2236,327.7254 62.9366,301.459 105.3054,299.7746" fill="#F59E0B" stroke="#D97706" stroke-width="3"/>
+  <polygon points="280.0,270.0 323.3013,295.0 323.3013,345.0 280.0,370.0 236.6987,345.0 236.6987,295.0" fill="#8B5CF6" stroke="#6D28D9" stroke-width="3"/>
+  <text x="50" y="440" font-family="Carrois Gothic SC" font-size="28" fill="#111827">
+    <tspan x="50" dy="0">ArtStudio Prompt 29 Text &amp; Shapes</tspan>
+    <tspan x="50" dy="34">Cutive Mono Technical Vector Typography</tspan>
+  </text>
+</svg>

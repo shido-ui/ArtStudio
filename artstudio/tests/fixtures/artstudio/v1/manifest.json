@@ -1,0 +1,332 @@
+{
+  "corpus_version": "1.0.0",
+  "created_at": "2026-10-09",
+  "license_policy": "Strict CC0-1.0. 100% synthetically generated assets. No proprietary, scraped, or unverified art.",
+  "categories_covered": [
+    "line_art",
+    "flat_colour",
+    "noisy_sketches",
+    "transparent_png",
+    "exif_rotated",
+    "corrupt_truncated",
+    "layered_ora",
+    "layered_psd",
+    "svg_samples",
+    "palettes"
+  ],
+  "fixture_count": 22,
+  "fixtures": [
+    {
+      "id": "lineart_simple_01",
+      "path": "line_art/lineart_simple_01.png",
+      "category": "line_art",
+      "format": "png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "complexity": "simple",
+      "sha256": "e57bb565dbdc2d896c00e6ceb22d35404f8bfc4eac27da307fd855b73466ba6a",
+      "intended_test": "Contour extraction, line cleanup, and flood fill boundary verification.",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    },
+    {
+      "id": "lineart_dense_02",
+      "path": "line_art/lineart_dense_02.png",
+      "category": "line_art",
+      "format": "png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "complexity": "detail_dense",
+      "sha256": "5b4b51ab50153991fd866beb680ee7ba1f77fc2b105530da6f63aa6cae538b96",
+      "intended_test": "Dense cross-hatch vectorization, gap closing, and high-frequency edge isolation.",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    },
+    {
+      "id": "flat_colour_simple_01",
+      "path": "flat_colour/flat_colour_simple_01.png",
+      "category": "flat_colour",
+      "format": "png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "complexity": "simple",
+      "sha256": "9277e45c46e5cc97a79a99b84ba124ded84140c107f3f8b0664399816a6b26e5",
+      "intended_test": "Color segmentation, palette quantization, and clean flat region boundary tests.",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    },
+    {
+      "id": "flat_colour_dense_02",
+      "path": "flat_colour/flat_colour_dense_02.png",
+      "category": "flat_colour",
+      "format": "png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "complexity": "detail_dense",
+      "sha256": "2d7ae575d05bfc64c1e9dd8a9851f588c4a04edfa74f3514e7e0e9b4c0e06faf",
+      "intended_test": "Multi-region palette extraction, 16-color segment identification, and zero-leak flood fill.",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    },
+    {
+      "id": "sketch_noisy_simple_01",
+      "path": "noisy_sketches/sketch_noisy_simple_01.png",
+      "category": "noisy_sketches",
+      "format": "png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "complexity": "simple",
+      "sha256": "d1fdbb8554223490930b07b308c7d8edab2a44d3de991f785080061d25b84d43",
+      "intended_test": "Pencil graphite desensitization, threshold binarization, and contrast normalization.",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    },
+    {
+      "id": "sketch_noisy_dense_02",
+      "path": "noisy_sketches/sketch_noisy_dense_02.png",
+      "category": "noisy_sketches",
+      "format": "png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "complexity": "detail_dense",
+      "sha256": "14a23b7e2f546a6c3756e5bf071089b6f4ced17ddafafe6cf81030f5efde46cc",
+      "intended_test": "Despeckle filtering, morphological gap closing, and heavy scanner grain reduction.",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    },
+    {
+      "id": "transparent_cutout_01",
+      "path": "transparent_png/transparent_cutout_01.png",
+      "category": "transparent_png",
+      "format": "png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "complexity": "simple",
+      "sha256": "b44ea897b628489c2432927711bf4b1b3446897f29f93cdbea22a584df40a478",
+      "intended_test": "Alpha mask preservation, non-destructive layer import, and bounding box trimming.",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    },
+    {
+      "id": "transparent_gradient_02",
+      "path": "transparent_png/transparent_gradient_02.png",
+      "category": "transparent_png",
+      "format": "png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "complexity": "detail_dense",
+      "sha256": "bf2450d990da38def3331cbb6e2e0993b4209eaff9bd7132cb344175db2298a4",
+      "intended_test": "Continuous alpha channel blending, watercolor wash simulation, and premultiplied alpha math.",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    },
+    {
+      "id": "exif_rotate_90_cw_01",
+      "path": "exif_rotated/exif_rotate_90_cw_01.jpg",
+      "category": "exif_rotated",
+      "format": "jpg",
+      "dimensions": [
+        256,
+        512
+      ],
+      "complexity": "simple",
+      "sha256": "ab802dfdf9f29608f5d8e7aea0444c49bd16f834f8cfff04e244f11f5b51156d",
+      "intended_test": "EXIF orientation 6 (90 CW) auto-correction on raster import.",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    },
+    {
+      "id": "exif_rotate_180_02",
+      "path": "exif_rotated/exif_rotate_180_02.jpg",
+      "category": "exif_rotated",
+      "format": "jpg",
+      "dimensions": [
+        512,
+        512
+      ],
+      "complexity": "simple",
+      "sha256": "8d64ba02216ece7941b26cb48ab5caac66c157aa1a9db52dbdc76c89404a37cf",
+      "intended_test": "EXIF orientation 3 (180 deg) inversion auto-correction.",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    },
+    {
+      "id": "truncated_idat_01",
+      "path": "corrupt_truncated/truncated_idat_01.png",
+      "category": "corrupt_truncated",
+      "format": "png",
+      "dimensions": null,
+      "complexity": "corrupt",
+      "sha256": "3f7d8f9f5e3de081da8e2439c23ab0c6e5ecd833bd5ed8b876726a6872568234",
+      "intended_test": "Resilient image decoding and graceful fallback on truncated stream.",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    },
+    {
+      "id": "corrupted_archive_02",
+      "path": "corrupt_truncated/corrupted_archive_02.ora",
+      "category": "corrupt_truncated",
+      "format": "ora",
+      "dimensions": null,
+      "complexity": "corrupt",
+      "sha256": "f7c857192205af1179e47f0f7a2cb10eb78962b168bc7e2c2c4870bfd6e27894",
+      "intended_test": "OpenRaster parser error recovery and informative user diagnostics on broken ZIP container.",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    },
+    {
+      "id": "malformed_tags_03",
+      "path": "corrupt_truncated/malformed_tags_03.svg",
+      "category": "corrupt_truncated",
+      "format": "svg",
+      "dimensions": null,
+      "complexity": "corrupt",
+      "sha256": "eaeb48716c053e3002636f28cdd32ad3ff2a0957e303e6bc0fe222d1bd758fad",
+      "intended_test": "SVG XML parser syntax recovery and safe subset error reporting.",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    },
+    {
+      "id": "sample_layered_simple_01",
+      "path": "layered_ora/sample_layered_simple_01.ora",
+      "category": "layered_ora",
+      "format": "ora",
+      "dimensions": [
+        512,
+        512
+      ],
+      "complexity": "simple",
+      "sha256": "73ce74b72eaff0d91cca025dab91951eb3b159051086bbeeaf5a2b5152a7c82a",
+      "intended_test": "OpenRaster multi-layer import/export, stack.xml hierarchy, and layer blend mode parity.",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    },
+    {
+      "id": "sample_layered_dense_02",
+      "path": "layered_ora/sample_layered_dense_02.ora",
+      "category": "layered_ora",
+      "format": "ora",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "complexity": "detail_dense",
+      "sha256": "cca505e5763f5895c5a4c18f6f1ae4140952633fc644dbfd2af2e019a1b38b1b",
+      "intended_test": "Three-layer ORA composition, variable layer opacities, and composite operation fidelity.",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    },
+    {
+      "id": "sample_vector_simple_01",
+      "path": "svg_samples/sample_vector_simple_01.svg",
+      "category": "svg_samples",
+      "format": "svg",
+      "dimensions": [
+        512,
+        512
+      ],
+      "complexity": "simple",
+      "sha256": "16eb0d089b2180708e5f43a9862eba870bcfe7039b6b65854fd6bb61314e7496",
+      "intended_test": "Safe SVG primitive tag parsing (<rect>, <circle>, <polygon>, <ellipse>).",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    },
+    {
+      "id": "sample_vector_dense_02",
+      "path": "svg_samples/sample_vector_dense_02.svg",
+      "category": "svg_samples",
+      "format": "svg",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "complexity": "detail_dense",
+      "sha256": "0a009d5b51b03b9e4202e6afb48e034c28ba185ea57349509c05d3fd74b414d1",
+      "intended_test": "Safe SVG Bezier path parsing, cubic spline parsing, and vector scaling precision.",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    },
+    {
+      "id": "palette_15_styles",
+      "path": "palettes/colour_lab_reference_palettes.json",
+      "category": "palettes",
+      "format": "json",
+      "dimensions": null,
+      "complexity": "reference",
+      "sha256": "a0d361440d7723af6c68d75e61044a0ce64fba50cb165c4e924b6df0807a34dd",
+      "intended_test": "15 Colour Lab styles + No Colour specification compliance.",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    },
+    {
+      "id": "sample_layered_simple_01_psd",
+      "path": "layered_psd/sample_layered_simple_01.psd",
+      "category": "layered_psd",
+      "format": "psd",
+      "dimensions": [
+        64,
+        64
+      ],
+      "complexity": "simple",
+      "sha256": "8e2cb82e11adfaf933b0df637f9d9908de01c2a863ea7f85fc0b1ac32848a38a",
+      "intended_test": "Cleanroom PSD import with 2 layers, bounds, PackBits RLE, and ResolutionInfo.",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    },
+    {
+      "id": "sample_layered_clipping_02_psd",
+      "path": "layered_psd/sample_layered_clipping_02.psd",
+      "category": "layered_psd",
+      "format": "psd",
+      "dimensions": [
+        64,
+        64
+      ],
+      "complexity": "detail_dense",
+      "sha256": "930c3af4a3441517d08a917c43dc6d1bfb684764b0d8ebfe2b8cbb211dfb62df",
+      "intended_test": "PSD layer hierarchy with clipping mask and hidden layer flag restoration.",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    },
+    {
+      "id": "corrupted_header_01_psd",
+      "path": "corrupt_truncated/corrupted_header_01.psd",
+      "category": "corrupt_truncated",
+      "format": "psd",
+      "dimensions": null,
+      "complexity": "corrupted",
+      "sha256": "cfcaae82e54473090cc551c38ca3effd255c3cec24a5c6804df6b53f07f5637e",
+      "intended_test": "Corrupted 8BPS magic header rejection without process crash.",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    },
+    {
+      "id": "truncated_channels_02_psd",
+      "path": "corrupt_truncated/truncated_channels_02.psd",
+      "category": "corrupt_truncated",
+      "format": "psd",
+      "dimensions": null,
+      "complexity": "corrupted",
+      "sha256": "703be3245d64fdfa739ec5b7add4a1a2feec63d47c0bba87e40d633331d83e87",
+      "intended_test": "Prematurely truncated PSD channel stream rejection with recoverable error.",
+      "license": "CC0-1.0",
+      "author": "Antigravity Art Studio Test Suite"
+    }
+  ]
+}

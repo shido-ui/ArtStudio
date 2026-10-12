@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="studio_window_background">#121214</color>
+    <color name="studio_primary">#4D9FFF</color>
+    <color name="studio_surface">#18181B</color>
+    <color name="studio_surface_elevated">#222226</color>
+</resources>

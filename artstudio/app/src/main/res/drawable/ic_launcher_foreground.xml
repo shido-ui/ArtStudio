@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Palette shape -->
+    <path
+        android:fillColor="#4D9FFF"
+        android:pathData="M54,26 C38.54,26 26,38.54 26,54 C26,69.46 38.54,82 54,82 C56.76,82 59,79.76 59,77 C59,75.69 58.49,74.51 57.66,73.64 C56.84,72.77 56.33,71.59 56.33,70.28 C56.33,67.52 58.57,65.28 61.33,65.28 L66,65.28 C74.84,65.28 82,58.12 82,49.28 C82,36.42 69.46,26 54,26 Z" />
+    <!-- Color paint dabs -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M39,44m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path
+        android:fillColor="#FFD740"
+        android:pathData="M52,37m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path
+        android:fillColor="#69F0AE"
+        android:pathData="M65,44m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path
+        android:fillColor="#E040FB"
+        android:pathData="M70,55m-3.5,0a3.5,3.5 0,1,1 7,0a3.5,3.5 0,1,1 -7,0" />
+</vector>

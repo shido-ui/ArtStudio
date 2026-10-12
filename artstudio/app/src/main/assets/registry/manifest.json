@@ -1,0 +1,342 @@
+{
+  "manifest_version": "1.0",
+  "system": "Art Studio Serverless Pro Asset Registry",
+  "bundled": [
+    {
+      "name": "Classic Fountain Pen",
+      "category": "BRUSH",
+      "license": "CC0-1.0",
+      "sha256": "2bc054b49a0831e2f20964c919f8719f42f63aaba6c2a2338f0f53be2fdcceff",
+      "file_size": 697
+    },
+    {
+      "name": "Coarse Bristle Ink",
+      "category": "BRUSH",
+      "license": "CC0-1.0",
+      "sha256": "ac24e8e09cb9b465988af86c64bcccca28e8c54c224243f30493505c986423cc",
+      "file_size": 719
+    },
+    {
+      "name": "Soft Airbrush Spray",
+      "category": "BRUSH",
+      "license": "CC0-1.0",
+      "sha256": "805bff7d1290b48e35739bbccee1e3c3d50594a53b2a338402eddcaaef585a3b",
+      "file_size": 681
+    },
+    {
+      "name": "Fine Linen Canvas",
+      "category": "TEXTURE",
+      "license": "CC0-1.0",
+      "sha256": "449760752f8024210ace7d0bc3e90299bb1fb4b636f0257aa6e4944ea8bf4f99",
+      "file_size": 3433
+    },
+    {
+      "name": "Medium Linen Canvas",
+      "category": "TEXTURE",
+      "license": "CC0-1.0",
+      "sha256": "3ff525ecdf3acd647353c7171d025197586994cb1292e35ed5e348255ec404d5",
+      "file_size": 3900
+    },
+    {
+      "name": "Coarse Burlap",
+      "category": "TEXTURE",
+      "license": "CC0-1.0",
+      "sha256": "bd0772f03e69162b5306ee8df1c70b0c139826319e3c638c5e475e55f8f529e1",
+      "file_size": 3991
+    },
+    {
+      "name": "Cold-Press Watercolour Paper",
+      "category": "TEXTURE",
+      "license": "CC0-1.0",
+      "sha256": "cfebf5c3118112a19e4595dd4f7e1d9c00db5ba232ab55f3aefaa895e9ea5d4d",
+      "file_size": 4054
+    },
+    {
+      "name": "Rough Charcoal Paper",
+      "category": "TEXTURE",
+      "license": "CC0-1.0",
+      "sha256": "06c570f797762eb8deb12c73c815db2c9ea06176cc2c87dc49a250d28f4f19cb",
+      "file_size": 4120
+    },
+    {
+      "name": "Smooth Bristol Board",
+      "category": "TEXTURE",
+      "license": "CC0-1.0",
+      "sha256": "6d88ad9ef6281efaa2df513109f9c90907eab69d42d56e5ac4ff6f2d25edfc25",
+      "file_size": 2936
+    },
+    {
+      "name": "Halftone 85 LPI Fine",
+      "category": "COMIC",
+      "license": "CC0-1.0",
+      "sha256": "512a631a1abd32d343ff9c5e2c26b66d26c4b227cfe8aa02f73d0952e52ec3e8",
+      "file_size": 119
+    },
+    {
+      "name": "Halftone 60 LPI Standard",
+      "category": "COMIC",
+      "license": "CC0-1.0",
+      "sha256": "cfaddf35d6650ea83566d85166fbcb030337faaeedd43ee57b5cf8fcc8e68ffd",
+      "file_size": 139
+    },
+    {
+      "name": "Halftone 40 LPI Coarse",
+      "category": "COMIC",
+      "license": "CC0-1.0",
+      "sha256": "dedd8e16bd3a203344cd0631d15710310aff137448a1af5758d047ce7ae6928c",
+      "file_size": 139
+    },
+    {
+      "name": "Screentone Gradient 20-80",
+      "category": "COMIC",
+      "license": "CC0-1.0",
+      "sha256": "44da5767c685f15740b66f5c7362a81fbc1815d5593c0e82165e5c81dfd4f254",
+      "file_size": 140
+    },
+    {
+      "name": "Screentone Crosshatch",
+      "category": "COMIC",
+      "license": "CC0-1.0",
+      "sha256": "abc8b109dd571ac7fa4fbfefbe3cf9243cfa5fe9cd736593a95aee4cb50e689b",
+      "file_size": 126
+    },
+    {
+      "name": "Bubble Sans",
+      "category": "FONT",
+      "license": "SIL-OFL-1.1",
+      "sha256": "fd3c1c0394565e8d9bd807c8a74ec7f7d308f16ae3cdbe36f8a35b2f14307292",
+      "file_size": 198372
+    },
+    {
+      "name": "Tomson Talks",
+      "category": "FONT",
+      "license": "SIL-OFL-1.1",
+      "sha256": "f7beeee4f3e11e38281f528dcf8a20218c6ce9b7a5b2acdca9f8bef303dd8526",
+      "file_size": 105944
+    }
+  ],
+  "downloadable": [
+    {
+      "id": "brushes.krita.davidrevoy",
+      "name": "Krita Brush Pack (David Revoy)",
+      "category": "BRUSH",
+      "license": "CC0-1.0",
+      "sha256": "a1b2c3d4e5f60718293a4b5c6d7e8f90123456789abcdef0123456789abcdef0",
+      "download_urls": [
+        "https://github.com/DavidRevoy/Krita-Brush-Pack/archive/refs/tags/v1.0.zip",
+        "https://huggingface.co/datasets/artstudio-assets/brushes/resolve/main/krita_davidrevoy.zip"
+      ],
+      "file_size": 26214400,
+      "preview_url": "https://raw.githubusercontent.com/DavidRevoy/Krita-Brush-Pack/master/preview.png"
+    },
+    {
+      "id": "brushes.mypaint.community",
+      "name": "MyPaint Community Brushes",
+      "category": "BRUSH",
+      "license": "CC0-1.0",
+      "sha256": "b2c3d4e5f60718293a4b5c6d7e8f90123456789abcdef0123456789abcdef01",
+      "download_urls": [
+        "https://github.com/mypaint/mypaint-brushes/archive/refs/tags/v2.0.2.zip",
+        "https://huggingface.co/datasets/artstudio-assets/brushes/resolve/main/mypaint_community.zip"
+      ],
+      "file_size": 14365491,
+      "preview_url": "https://raw.githubusercontent.com/mypaint/mypaint-brushes/master/preview.png"
+    },
+    {
+      "id": "brushes.ink.manga",
+      "name": "Manga Inking Brushes",
+      "category": "BRUSH",
+      "license": "CC0-1.0",
+      "sha256": "c3d4e5f60718293a4b5c6d7e8f90123456789abcdef0123456789abcdef012",
+      "download_urls": [
+        "https://github.com/OpenGameArt/ink-brushes/archive/refs/tags/v1.0.zip",
+        "https://huggingface.co/datasets/artstudio-assets/brushes/resolve/main/ink_manga.zip"
+      ],
+      "file_size": 5242880,
+      "preview_url": "https://raw.githubusercontent.com/OpenGameArt/ink-brushes/master/preview.png"
+    },
+    {
+      "id": "textures.ambientcg.canvas",
+      "name": "ambientCG Fine Canvas & Linens (2K)",
+      "category": "TEXTURE",
+      "license": "CC0-1.0",
+      "sha256": "d4e5f60718293a4b5c6d7e8f90123456789abcdef0123456789abcdef0123",
+      "download_urls": [
+        "https://ambientcg.com/get?file=Canvas001_2K-JPG.zip",
+        "https://huggingface.co/datasets/artstudio-assets/textures/resolve/main/ambientcg_canvas_2k.zip"
+      ],
+      "file_size": 83886080,
+      "preview_url": "https://ambientcg.com/view?id=Canvas001"
+    },
+    {
+      "id": "textures.ambientcg.paper",
+      "name": "ambientCG Textured Papers (2K)",
+      "category": "TEXTURE",
+      "license": "CC0-1.0",
+      "sha256": "e5f60718293a4b5c6d7e8f90123456789abcdef0123456789abcdef01234",
+      "download_urls": [
+        "https://ambientcg.com/get?file=Paper001_2K-JPG.zip",
+        "https://huggingface.co/datasets/artstudio-assets/textures/resolve/main/ambientcg_paper_2k.zip"
+      ],
+      "file_size": 62914560,
+      "preview_url": "https://ambientcg.com/view?id=Paper001"
+    },
+    {
+      "id": "textures.polyhaven.wood",
+      "name": "Poly Haven Wood & Grain Surfaces (2K)",
+      "category": "TEXTURE",
+      "license": "CC0-1.0",
+      "sha256": "f60718293a4b5c6d7e8f90123456789abcdef0123456789abcdef012345",
+      "download_urls": [
+        "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_table_001.zip",
+        "https://huggingface.co/datasets/artstudio-assets/textures/resolve/main/polyhaven_wood_2k.zip"
+      ],
+      "file_size": 41943040,
+      "preview_url": "https://polyhaven.com/a/wood_table_001"
+    },
+    {
+      "id": "textures.opengameart.watercolour",
+      "name": "OpenGameArt Watercolour Washes",
+      "category": "TEXTURE",
+      "license": "CC0-1.0",
+      "sha256": "0718293a4b5c6d7e8f90123456789abcdef0123456789abcdef0123456",
+      "download_urls": [
+        "https://opengameart.org/content/watercolour-textures/download.zip",
+        "https://huggingface.co/datasets/artstudio-assets/textures/resolve/main/watercolour_textures.zip"
+      ],
+      "file_size": 31457280,
+      "preview_url": "https://opengameart.org/content/watercolour-textures"
+    },
+    {
+      "id": "fonts.comic.lettering",
+      "name": "Comic Lettering & SFX Font Pack",
+      "category": "FONT",
+      "license": "SIL-OFL-1.1",
+      "sha256": "18293a4b5c6d7e8f90123456789abcdef0123456789abcdef01234567",
+      "download_urls": [
+        "https://github.com/fontsource/comic-fonts/releases/download/v1.0/comic_fonts.zip",
+        "https://huggingface.co/datasets/artstudio-assets/fonts/resolve/main/comic_fonts.zip"
+      ],
+      "file_size": 5242880,
+      "preview_url": "https://raw.githubusercontent.com/fontsource/comic-fonts/master/preview.png"
+    },
+    {
+      "id": "fonts.calligraphy.brush",
+      "name": "Calligraphy & Brush Lettering Fonts",
+      "category": "FONT",
+      "license": "SIL-OFL-1.1",
+      "sha256": "293a4b5c6d7e8f90123456789abcdef0123456789abcdef012345678",
+      "download_urls": [
+        "https://github.com/fontsource/calligraphy/releases/download/v1.0/calligraphy_fonts.zip",
+        "https://huggingface.co/datasets/artstudio-assets/fonts/resolve/main/calligraphy_fonts.zip"
+      ],
+      "file_size": 3145728,
+      "preview_url": "https://raw.githubusercontent.com/fontsource/calligraphy/master/preview.png"
+    },
+    {
+      "id": "comic.screentone.classic",
+      "name": "Classic Screentones (GNU-3DLDF)",
+      "category": "COMIC",
+      "license": "CC0-1.0",
+      "sha256": "3a4b5c6d7e8f90123456789abcdef0123456789abcdef0123456789",
+      "download_urls": [
+        "https://github.com/GNU-3DLDF/screentones/archive/refs/tags/v1.0.zip",
+        "https://huggingface.co/datasets/artstudio-assets/comic/resolve/main/screentone_classic.zip"
+      ],
+      "file_size": 5242880,
+      "preview_url": "https://raw.githubusercontent.com/GNU-3DLDF/screentones/master/preview.png"
+    },
+    {
+      "id": "comic.bubbles.cc0",
+      "name": "CC0 Speech Balloons & Action Tails",
+      "category": "COMIC",
+      "license": "CC0-1.0",
+      "sha256": "4b5c6d7e8f90123456789abcdef0123456789abcdef0123456789a",
+      "download_urls": [
+        "https://github.com/artstudio-assets/comic/releases/download/v1.0/cc0_bubbles.zip",
+        "https://huggingface.co/datasets/artstudio-assets/comic/resolve/main/cc0_bubbles.zip"
+      ],
+      "file_size": 2097152,
+      "preview_url": "https://raw.githubusercontent.com/artstudio-assets/comic/master/preview.png"
+    },
+    {
+      "id": "comic.panels.templates",
+      "name": "Dynamic Comic Panel Templates",
+      "category": "COMIC",
+      "license": "CC0-1.0",
+      "sha256": "5c6d7e8f90123456789abcdef0123456789abcdef0123456789ab",
+      "download_urls": [
+        "https://github.com/opengameart/comic-panels/archive/refs/tags/v1.0.zip",
+        "https://huggingface.co/datasets/artstudio-assets/comic/resolve/main/comic_panels.zip"
+      ],
+      "file_size": 1048576,
+      "preview_url": "https://raw.githubusercontent.com/opengameart/comic-panels/master/preview.png"
+    },
+    {
+      "id": "ai.mediapipe.selfie",
+      "name": "MediaPipe Selfie Segmentation",
+      "category": "AI_MODEL",
+      "license": "Apache-2.0",
+      "sha256": "6d7e8f90123456789abcdef0123456789abcdef0123456789abc",
+      "download_urls": [
+        "https://storage.googleapis.com/mediapipe-models/image_segmenter/selfie_segmenter/float16/latest/selfie_segmenter.tflite",
+        "https://huggingface.co/datasets/artstudio-assets/ai/resolve/main/selfie_segmenter.tflite"
+      ],
+      "file_size": 460800,
+      "preview_url": "https://developers.google.com/mediapipe/solutions/vision/image_segmenter"
+    },
+    {
+      "id": "ai.animeganv2.hayao",
+      "name": "AnimeGANv2 Hayao Aesthetic Stylizer",
+      "category": "AI_MODEL",
+      "license": "MIT",
+      "sha256": "7e8f90123456789abcdef0123456789abcdef0123456789abcd",
+      "download_urls": [
+        "https://huggingface.co/akhaliq/AnimeGANv2/resolve/main/generator_Hayao_weight.tflite",
+        "https://github.com/artstudio-assets/ai/releases/download/v1.0/generator_Hayao_weight.tflite"
+      ],
+      "file_size": 9437184,
+      "preview_url": "https://huggingface.co/akhaliq/AnimeGANv2"
+    },
+    {
+      "id": "ai.realesrgan.x4v3",
+      "name": "Real-ESRGAN x4plus Line Art Super-Resolution",
+      "category": "AI_MODEL",
+      "license": "BSD-3-Clause",
+      "sha256": "8f90123456789abcdef0123456789abcdef0123456789abcde",
+      "download_urls": [
+        "https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.tflite",
+        "https://github.com/artstudio-assets/ai/releases/download/v1.0/RealESRGAN_x4.tflite"
+      ],
+      "file_size": 17825792,
+      "preview_url": "https://github.com/xinntao/Real-ESRGAN"
+    },
+    {
+      "id": "ai.u2net",
+      "name": "U2Net Background Removal (Rembg)",
+      "category": "AI_MODEL",
+      "license": "Apache-2.0",
+      "sha256": "90123456789abcdef0123456789abcdef0123456789abcdef",
+      "download_urls": [
+        "https://huggingface.co/tomjackson2023/rembg/resolve/main/u2net.tflite",
+        "https://github.com/artstudio-assets/ai/releases/download/v1.0/u2net.tflite"
+      ],
+      "file_size": 4928307,
+      "preview_url": "https://github.com/danielgatis/rembg"
+    }
+  ],
+  "runtime": [
+    {
+      "id": "runtime.tflite",
+      "name": "TensorFlow Lite Native Runtime Engine",
+      "category": "AI_MODEL",
+      "license": "Apache-2.0",
+      "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0",
+      "download_urls": [
+        "https://github.com/artstudio-assets/runtimes/releases/download/v2.14.0/tflite_runtime_android.zip",
+        "https://huggingface.co/datasets/artstudio-assets/runtimes/resolve/main/tflite_runtime_android.zip"
+      ],
+      "file_size": 4194304
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "format": "artstudio-brush-preset",
+  "schemaVersion": 1,
+  "id": "preset_bristle_ink",
+  "name": "Coarse Bristle Ink",
+  "category": "Inking",
+  "isFavorite": false,
+  "isBuiltIn": true,
+  "tags": [
+    "ink",
+    "bristle",
+    "dry",
+    "texture"
+  ],
+  "config": {
+    "type": "INK_BRUSH",
+    "size": 24.0,
+    "opacity": 0.88,
+    "hardness": 0.75,
+    "color": -16777216,
+    "blendMode": "SRC_OVER",
+    "spacing": 0.08,
+    "tipShape": "ROUND",
+    "tipAngleDegrees": 0.0,
+    "tipAspectRatio": 1.0,
+    "patternShape": "CANVAS_GRAIN",
+    "patternScale": 1.2,
+    "stabilizationWeight": 0.15,
+    "pressureResponse": "SOFT"
+  },
+  "createdAtEpochMs": 1700000000000,
+  "modifiedAtEpochMs": 1700000000000
+}

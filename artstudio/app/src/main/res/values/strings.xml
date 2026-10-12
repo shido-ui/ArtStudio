@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Art Studio</string>
+
+    <!-- Studio Tools -->
+    <string name="tool_brush">Brush</string>
+    <string name="tool_eraser">Eraser</string>
+    <string name="tool_eyedropper">Eyedropper</string>
+    <string name="tool_fill">Flood Fill</string>
+    <string name="tool_smudge">Smudge</string>
+    <string name="tool_blur">Blur</string>
+    <string name="tool_pixel_ops">Smudge and Blur</string>
+    <string name="tool_filters">Filters</string>
+    <string name="tool_adjustments">Color Adjustments</string>
+    <string name="tool_shapes">Shapes</string>
+    <string name="tool_vector">Vector Tools</string>
+    <string name="tool_text">Text</string>
+    <string name="tool_selection">Selection</string>
+    <string name="tool_transform">Transform Layer</string>
+    <string name="tool_symmetry">Symmetry</string>
+    <string name="tool_clear">Clear Active Layer</string>
+    <string name="tool_layers">Layers</string>
+    <string name="tool_timeline">Animation Timeline</string>
+    <string name="tool_color">Color Palette</string>
+    <string name="tool_drawing_aids">Drawing Aids</string>
+    <string name="tool_comic">Comic and Manga</string>
+    <string name="tool_autodraw">AutoDraw Line Art</string>
+    <string name="action_replay_strokes">Replay Strokes</string>
+    <string name="action_commit_layer">Commit to Layer</string>
+    <string name="autodraw_preview_desc">AutoDraw contour preview</string>
+
+    <!-- Top Bar & Canvas Navigation -->
+    <string name="action_undo">Undo</string>
+    <string name="action_redo">Redo</string>
+    <string name="action_back">Navigate back</string>
+    <string name="action_zoom_fit">Fit to Screen</string>
+    <string name="action_reset_viewport">Reset Viewport</string>
+    <string name="action_import">Import Image</string>
+    <string name="action_export">Export Artwork</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="action_ok">OK</string>
+    <string name="action_settings">Studio Settings</string>
+
+    <!-- Confirmation & Notices -->
+    <string name="dialog_clear_title">Clear Active Layer</string>
+    <string name="dialog_clear_body">Are you sure you want to clear the active layer? This operation is fully undoable.</string>
+    <string name="dialog_clear_button">Clear</string>
+    <string name="dialog_import_title">Import Notice</string>
+    <string name="dialog_error_title">Studio Notice</string>
+
+    <!-- Content Descriptions & Accessibility -->
+    <string name="cd_top_bar">Studio top application bar</string>
+    <string name="cd_tool_bar">Studio tools bar</string>
+    <string name="cd_canvas">Canvas drawing viewport</string>
+    <string name="cd_active_color">Active color swatch</string>
+    <string name="cd_brush_size_slider">Brush size slider</string>
+    <string name="cd_brush_opacity_slider">Brush opacity slider</string>
+    <string name="cd_undo_disabled">No operations to undo</string>
+    <string name="cd_redo_disabled">No operations to redo</string>
+    <string name="cd_close_panel">Close panel</string>
+</resources>

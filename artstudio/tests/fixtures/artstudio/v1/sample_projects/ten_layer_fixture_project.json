@@ -1,0 +1,260 @@
+{
+  "schemaVersion": "2.0.0",
+  "appVersion": "1.0.0",
+  "id": "doc-fixture-10layers",
+  "title": "10-Layer Canonical Golden Fixture",
+  "canvas": {
+    "width": 512,
+    "height": 512,
+    "dpi": 300,
+    "backgroundColor": 4294835191,
+    "colorSpace": "sRGB"
+  },
+  "rootGroup": {
+    "type": "group",
+    "id": "group-fixture-root",
+    "name": "Root",
+    "visible": true,
+    "opacity": 1.0,
+    "blendMode": "normal",
+    "transform": {
+      "translationX": 0.0,
+      "translationY": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "rotationDegrees": 0.0
+    },
+    "isLocked": false,
+    "isClippingMask": false,
+    "isCollapsed": false,
+    "children": [
+      {
+        "type": "raster",
+        "id": "layer-fixture-00",
+        "name": "Background",
+        "visible": true,
+        "opacity": 1.0,
+        "blendMode": "normal",
+        "transform": {
+          "translationX": 0.0,
+          "translationY": 0.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotationDegrees": 0.0
+        },
+        "isLocked": false,
+        "isClippingMask": false,
+        "assetPath": null,
+        "width": 512,
+        "height": 512,
+        "offsetX": 0,
+        "offsetY": 0
+      },
+      {
+        "type": "raster",
+        "id": "layer-fixture-01",
+        "name": "Underdrawing Blue",
+        "visible": true,
+        "opacity": 0.5,
+        "blendMode": "normal",
+        "transform": {
+          "translationX": 0.0,
+          "translationY": 0.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotationDegrees": 0.0
+        },
+        "isLocked": false,
+        "isClippingMask": false,
+        "assetPath": null,
+        "width": 512,
+        "height": 512,
+        "offsetX": 0,
+        "offsetY": 0
+      },
+      {
+        "type": "raster",
+        "id": "layer-fixture-02",
+        "name": "Rough Sketch Warm",
+        "visible": true,
+        "opacity": 0.7,
+        "blendMode": "normal",
+        "transform": {
+          "translationX": 0.0,
+          "translationY": 0.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotationDegrees": 0.0
+        },
+        "isLocked": false,
+        "isClippingMask": false,
+        "assetPath": null,
+        "width": 512,
+        "height": 512,
+        "offsetX": 0,
+        "offsetY": 0
+      },
+      {
+        "type": "raster",
+        "id": "layer-fixture-03",
+        "name": "Hidden Draft Grid",
+        "visible": false,
+        "opacity": 0.85,
+        "blendMode": "normal",
+        "transform": {
+          "translationX": 0.0,
+          "translationY": 0.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotationDegrees": 0.0
+        },
+        "isLocked": false,
+        "isClippingMask": false,
+        "assetPath": null,
+        "width": 512,
+        "height": 512,
+        "offsetX": 0,
+        "offsetY": 0
+      },
+      {
+        "type": "raster",
+        "id": "layer-fixture-04",
+        "name": "Flat Color Teal",
+        "visible": true,
+        "opacity": 1.0,
+        "blendMode": "normal",
+        "transform": {
+          "translationX": 0.0,
+          "translationY": 0.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotationDegrees": 0.0
+        },
+        "isLocked": false,
+        "isClippingMask": false,
+        "assetPath": null,
+        "width": 512,
+        "height": 512,
+        "offsetX": 0,
+        "offsetY": 0
+      },
+      {
+        "type": "raster",
+        "id": "layer-fixture-05",
+        "name": "Flat Color Orange",
+        "visible": true,
+        "opacity": 0.85,
+        "blendMode": "normal",
+        "transform": {
+          "translationX": 0.0,
+          "translationY": 0.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotationDegrees": 0.0
+        },
+        "isLocked": false,
+        "isClippingMask": false,
+        "assetPath": null,
+        "width": 512,
+        "height": 512,
+        "offsetX": 0,
+        "offsetY": 0
+      },
+      {
+        "type": "raster",
+        "id": "layer-fixture-06",
+        "name": "Shadow Wash",
+        "visible": true,
+        "opacity": 0.45,
+        "blendMode": "normal",
+        "transform": {
+          "translationX": 0.0,
+          "translationY": 0.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotationDegrees": 0.0
+        },
+        "isLocked": false,
+        "isClippingMask": false,
+        "assetPath": null,
+        "width": 512,
+        "height": 512,
+        "offsetX": 0,
+        "offsetY": 0
+      },
+      {
+        "type": "raster",
+        "id": "layer-fixture-07",
+        "name": "Inks Contours",
+        "visible": true,
+        "opacity": 1.0,
+        "blendMode": "normal",
+        "transform": {
+          "translationX": 0.0,
+          "translationY": 0.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotationDegrees": 0.0
+        },
+        "isLocked": true,
+        "isClippingMask": false,
+        "assetPath": null,
+        "width": 512,
+        "height": 512,
+        "offsetX": 0,
+        "offsetY": 0
+      },
+      {
+        "type": "raster",
+        "id": "layer-fixture-08",
+        "name": "Highlight Glow",
+        "visible": true,
+        "opacity": 0.65,
+        "blendMode": "normal",
+        "transform": {
+          "translationX": 0.0,
+          "translationY": 0.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotationDegrees": 0.0
+        },
+        "isLocked": false,
+        "isClippingMask": false,
+        "assetPath": null,
+        "width": 512,
+        "height": 512,
+        "offsetX": 0,
+        "offsetY": 0
+      },
+      {
+        "type": "raster",
+        "id": "layer-fixture-09",
+        "name": "Vignette Accent",
+        "visible": true,
+        "opacity": 0.75,
+        "blendMode": "normal",
+        "transform": {
+          "translationX": 0.0,
+          "translationY": 0.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "rotationDegrees": 0.0
+        },
+        "isLocked": false,
+        "isClippingMask": false,
+        "assetPath": null,
+        "width": 512,
+        "height": 512,
+        "offsetX": 0,
+        "offsetY": 0
+      }
+    ]
+  },
+  "selectedLayerId": "layer-fixture-07",
+  "palettes": [],
+  "referenceImages": [],
+  "animation": null,
+  "autoDrawProvenance": null,
+  "createdAt": 1728500000000,
+  "updatedAt": 1728500000000
+}

@@ -1,0 +1,133 @@
+{
+  "version": "1.0.0",
+  "styles": [
+    {
+      "id": "no_colour",
+      "name": "No Colour",
+      "description": "Pure line art and contour baseline with transparent or white background, zero color fills.",
+      "passes": ["contour_extraction", "cleanup"],
+      "default_opacity": 1.0,
+      "blend_mode": "normal"
+    },
+    {
+      "id": "classic_cel_shading",
+      "name": "Classic Cel Shading",
+      "description": "Sharp, discrete 2-3 step shadow boundaries with hard-edge posterization.",
+      "passes": ["flat_fill", "hard_shadow_pass", "line_overlay"],
+      "default_opacity": 1.0,
+      "blend_mode": "multiply"
+    },
+    {
+      "id": "soft_gradient_shading",
+      "name": "Soft Gradient Shading",
+      "description": "Continuous smooth tonal gradients computed across normal vectors.",
+      "passes": ["flat_fill", "gradient_diffuse_pass", "highlight_pass"],
+      "default_opacity": 0.9,
+      "blend_mode": "multiply"
+    },
+    {
+      "id": "hybrid_cel_soft_shading",
+      "name": "Hybrid Cel + Soft Shading",
+      "description": "Crisp cel shadow core coupled with soft gradient ambient occlusion edges.",
+      "passes": ["flat_fill", "cel_shadow_pass", "soft_ambient_pass", "specular_pass"],
+      "default_opacity": 1.0,
+      "blend_mode": "multiply"
+    },
+    {
+      "id": "flat_illustration",
+      "name": "Flat Illustration",
+      "description": "Vibrant unshaded color blocks with consistent linework and graphical clarity.",
+      "passes": ["flat_color_block", "linework_overlay"],
+      "default_opacity": 1.0,
+      "blend_mode": "normal"
+    },
+    {
+      "id": "painterly",
+      "name": "Painterly",
+      "description": "Rich brushstroke texture, visible bristle marks, and blended edge transitions.",
+      "passes": ["underpainting", "bristle_pass", "impasto_highlight"],
+      "default_opacity": 0.95,
+      "blend_mode": "normal"
+    },
+    {
+      "id": "watercolour",
+      "name": "Watercolour",
+      "description": "Simulated pigment diffusion, wet-on-wet pooling, paper granulation, and edge darkening.",
+      "passes": ["paper_texture", "pigment_wash", "edge_darkening_fringe"],
+      "default_opacity": 0.85,
+      "blend_mode": "multiply"
+    },
+    {
+      "id": "coloured_pencil",
+      "name": "Coloured Pencil",
+      "description": "Directional hatching texture, toothy paper resist, and layered wax pigment buildup.",
+      "passes": ["paper_grain", "directional_hatch", "color_burn_layer"],
+      "default_opacity": 0.88,
+      "blend_mode": "multiply"
+    },
+    {
+      "id": "marker",
+      "name": "Marker",
+      "description": "Semi-translucent ink strokes with overlap pooling and streak artifacts.",
+      "passes": ["base_ink", "overlap_pooling_pass", "accent_ink"],
+      "default_opacity": 0.8,
+      "blend_mode": "multiply"
+    },
+    {
+      "id": "manga_screentone",
+      "name": "Manga Screentone",
+      "description": "Half-tone dot patterns, crosshatch screens, and frequency-locked stippling.",
+      "passes": ["dot_halftone_pass", "density_threshold", "ink_line_composite"],
+      "default_opacity": 1.0,
+      "blend_mode": "multiply"
+    },
+    {
+      "id": "comic_book",
+      "name": "Comic Book",
+      "description": "Four-color CMYK Ben-Day dots, heavy inking lines, and saturated pop-art primaries.",
+      "passes": ["cmyk_halftone", "black_shadow_stencil", "heavy_contour_pass"],
+      "default_opacity": 1.0,
+      "blend_mode": "normal"
+    },
+    {
+      "id": "oil_paint",
+      "name": "Oil Paint",
+      "description": "Thick impasto relief, specular sheen, and rich oily blending.",
+      "passes": ["ground_layer", "oil_color_wash", "impasto_height_map", "sheen_specular"],
+      "default_opacity": 1.0,
+      "blend_mode": "normal"
+    },
+    {
+      "id": "gouache",
+      "name": "Gouache",
+      "description": "Opaque matte color fields with velvety finish and crisp clean edges.",
+      "passes": ["matte_block", "opaque_layering", "fine_detail_pass"],
+      "default_opacity": 0.95,
+      "blend_mode": "normal"
+    },
+    {
+      "id": "pastel_palette",
+      "name": "Pastel Palette",
+      "description": "Chalky texture, soft powdery blending, muted desaturated pastel tones.",
+      "passes": ["chalk_texture_pass", "smudge_diffusion", "soft_powder_bloom"],
+      "default_opacity": 0.9,
+      "blend_mode": "normal"
+    },
+    {
+      "id": "neon_cyberpunk",
+      "name": "Neon / Cyberpunk",
+      "description": "High-contrast dark backdrops with vivid fluorescent glows, chromatic aberration, and emission blooms.",
+      "passes": ["dark_base", "neon_emission_core", "gaussian_glow_bloom", "chromatic_fringe"],
+      "default_opacity": 1.0,
+      "blend_mode": "screen"
+    },
+    {
+      "id": "monochrome",
+      "name": "Monochrome",
+      "description": "High-fidelity tonal range across single-tint inks (sepia, carbon black, cyanotype).",
+      "passes": ["tonal_remap", "ink_wash", "grain_texture"],
+      "default_opacity": 1.0,
+      "blend_mode": "multiply"
+    }
+  ]
+}

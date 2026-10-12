@@ -1,0 +1,53 @@
+{
+  "manifest_version": "1.0",
+  "system": "Art Studio",
+  "category": "COMIC",
+  "license_policy": "CC0-1.0 Universal",
+  "screentones": [
+    {
+      "id": "comic_halftone_85lpi",
+      "name": "Halftone 85 LPI Fine",
+      "file": "halftone_85lpi_64.png",
+      "author": "Art Studio Team",
+      "license": "CC0-1.0",
+      "sha256": "512a631a1abd32d343ff9c5e2c26b66d26c4b227cfe8aa02f73d0952e52ec3e8",
+      "file_size": 119
+    },
+    {
+      "id": "comic_halftone_60lpi",
+      "name": "Halftone 60 LPI Standard",
+      "file": "halftone_60lpi_64.png",
+      "author": "Art Studio Team",
+      "license": "CC0-1.0",
+      "sha256": "cfaddf35d6650ea83566d85166fbcb030337faaeedd43ee57b5cf8fcc8e68ffd",
+      "file_size": 139
+    },
+    {
+      "id": "comic_halftone_40lpi",
+      "name": "Halftone 40 LPI Coarse",
+      "file": "halftone_40lpi_64.png",
+      "author": "Art Studio Team",
+      "license": "CC0-1.0",
+      "sha256": "dedd8e16bd3a203344cd0631d15710310aff137448a1af5758d047ce7ae6928c",
+      "file_size": 139
+    },
+    {
+      "id": "comic_screentone_gradient",
+      "name": "Screentone Gradient 20-80",
+      "file": "screentone_gradient_64.png",
+      "author": "Art Studio Team",
+      "license": "CC0-1.0",
+      "sha256": "44da5767c685f15740b66f5c7362a81fbc1815d5593c0e82165e5c81dfd4f254",
+      "file_size": 140
+    },
+    {
+      "id": "comic_screentone_crosshatch",
+      "name": "Screentone Crosshatch",
+      "file": "screentone_crosshatch_64.png",
+      "author": "Art Studio Team",
+      "license": "CC0-1.0",
+      "sha256": "abc8b109dd571ac7fa4fbfefbe3cf9243cfa5fe9cd736593a95aee4cb50e689b",
+      "file_size": 126
+    }
+  ]
+}

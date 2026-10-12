@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- ArtStudio v1 Fixture: Detail-Dense Vector Paths & Contours (License: CC0-1.0) -->
+  <rect width="1024" height="1024" fill="#FFFFFF"/>
+  <g fill="none" stroke="#2C3E50" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Primary Outer Contour -->
+    <path d="M 512 80 C 280 80, 100 240, 100 460 C 100 660, 260 840, 512 944 C 764 840, 924 660, 924 460 C 924 240, 744 80, 512 80 Z" stroke-width="8"/>
+    <!-- Intricate Internal Flourishes -->
+    <path d="M 300 340 Q 512 200, 724 340 T 512 600 Z" stroke-width="5" fill="#ECF0F1"/>
+    <path d="M 240 500 C 340 650, 684 650, 784 500 C 684 750, 340 750, 240 500 Z" stroke-width="6" fill="#BDC3C7"/>
+    <!-- Concentric Hatch Paths -->
+    <path d="M 512 240 C 400 240, 320 320, 320 440 S 440 640, 512 700 S 704 560, 704 440 S 624 240, 512 240 Z" stroke-width="4"/>
+    <path d="M 512 300 C 440 300, 380 360, 380 440 S 460 580, 512 620 S 644 520, 644 440 S 584 300, 512 300 Z" stroke-width="3"/>
+    <!-- Radiating Ray Accents -->
+    <line x1="512" y1="120" x2="512" y2="200" stroke-width="4"/>
+    <line x1="260" y1="200" x2="320" y2="260" stroke-width="4"/>
+    <line x1="764" y1="200" x2="704" y2="260" stroke-width="4"/>
+    <line x1="160" y1="460" x2="240" y2="460" stroke-width="4"/>
+    <line x1="864" y1="460" x2="784" y2="460" stroke-width="4"/>
+  </g>
+</svg>
